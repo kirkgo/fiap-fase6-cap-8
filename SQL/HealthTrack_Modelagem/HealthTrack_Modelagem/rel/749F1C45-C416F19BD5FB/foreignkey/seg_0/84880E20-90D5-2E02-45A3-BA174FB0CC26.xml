@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="84880E20-90D5-2E02-45A3-BA174FB0CC26" containerWithKeyObject="B2F7B173-8079-8CF8-A3A4-CD4664FC3341" localFKIndex="8A1C87EB-E7EB-D4E6-DB81-BB5D2C2C4295" name="USUARIO-CONTA_FK">
+<createdBy>onale</createdBy>
+<createdTime>2022-05-20 14:31:44 UTC</createdTime>
+<generatorID>3F1E0AB6-40DA-27F7-03F7-DDC46D5457B3</generatorID>
+<ownerDesignName>HealthTrack_DataBase_ModeloLogico</ownerDesignName>
+<referredTableLongName>T_SHT_CONTA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C30E6E0B-292C-1D77-3DBD-BC74FADA5172</referredTableID>
+<keyObject>7608383C-E349-3149-B98C-736FD53C40AB</keyObject>
+<referredKeyID>7608383C-E349-3149-B98C-736FD53C40AB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cdg_conta</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

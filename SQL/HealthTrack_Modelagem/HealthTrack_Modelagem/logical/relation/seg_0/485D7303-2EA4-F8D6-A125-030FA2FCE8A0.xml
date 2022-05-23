@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="T SHT META USUARIO" directorySegmentName="seg_0" id="485D7303-2EA4-F8D6-A125-030FA2FCE8A0">
+<createdBy>onale</createdBy>
+<createdTime>2022-05-20 13:58:02 UTC</createdTime>
+<ownerDesignName>HealthTrack_DataBase_ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="749F1C45-C748-F28B-DFEC-C416F19BD5FB" value="true"/>
+</engineerTo>
+<sourcePk>EEB5C9EA-E210-CE6A-EB9E-4419CDCEF8EA</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1D2DF9D0-9721-978D-A20E-1001DB64B626</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CE42B0C0-7D79-ADED-0BC5-574F8243B6CB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

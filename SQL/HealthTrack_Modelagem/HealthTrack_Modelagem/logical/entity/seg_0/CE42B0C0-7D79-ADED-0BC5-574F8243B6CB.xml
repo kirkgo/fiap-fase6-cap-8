@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CE42B0C0-7D79-ADED-0BC5-574F8243B6CB" name="T SHT META USUARIO">
+<createdBy>onale</createdBy>
+<createdTime>2022-05-20 13:55:32 UTC</createdTime>
+<ownerDesignName>HealthTrack_DataBase_ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="749F1C45-C748-F28B-DFEC-C416F19BD5FB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cdg usuario" id="F2A14486-EE84-09EF-9016-E58F5072277E">
+<createdBy>onale</createdBy>
+<createdTime>2022-05-20 13:56:29 UTC</createdTime>
+<generatorID>91633DB1-618E-AD8D-DD06-762ABDE989B1</generatorID>
+<ownerDesignName>HealthTrack_DataBase_ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="749F1C45-C748-F28B-DFEC-C416F19BD5FB" value="true"/>
+</engineerTo>
+<referedAttribute>95C083BD-8A4E-16D7-6FC5-68878130A3D8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cdg item" id="A34C857F-F1D2-23B5-D5AF-EEB961D026FE">
+<createdBy>onale</createdBy>
+<createdTime>2022-05-20 13:58:02 UTC</createdTime>
+<generatorID>485D7303-2EA4-F8D6-A125-030FA2FCE8A0</generatorID>
+<ownerDesignName>HealthTrack_DataBase_ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="749F1C45-C748-F28B-DFEC-C416F19BD5FB" value="true"/>
+</engineerTo>
+<referedAttribute>CE3A5D2E-4F13-090C-43CB-61F1E214F76D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dta inicio" id="616B7EF1-91F2-CEA7-E588-A1F72DA24CB0">
+<createdBy>onale</createdBy>
+<createdTime>2022-05-20 14:00:13 UTC</createdTime>
+<ownerDesignName>HealthTrack_DataBase_ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="749F1C45-C748-F28B-DFEC-C416F19BD5FB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vlr meta" id="46BFAC6B-7A14-CC7B-A23B-E04C9B43A827">
+<createdBy>onale</createdBy>
+<createdTime>2022-05-20 14:01:03 UTC</createdTime>
+<ownerDesignName>HealthTrack_DataBase_ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="749F1C45-C748-F28B-DFEC-C416F19BD5FB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dta termino prevista" id="76053AC1-A6CD-089A-2FBC-4231F533BEE2">
+<createdBy>onale</createdBy>
+<createdTime>2022-05-20 14:03:00 UTC</createdTime>
+<ownerDesignName>HealthTrack_DataBase_ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="749F1C45-C748-F28B-DFEC-C416F19BD5FB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E37C6AB7-3D2E-E0A7-D8E2-363F83FB0C84" name="T_SHT_META_USUARIO_PK">
+<createdBy>onale</createdBy>
+<createdTime>2022-05-20 14:10:34 UTC</createdTime>
+<ownerDesignName>HealthTrack_DataBase_ModeloLogico</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="749F1C45-C748-F28B-DFEC-C416F19BD5FB" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F2A14486-EE84-09EF-9016-E58F5072277E</attributeRef>
+<attributeRef>A34C857F-F1D2-23B5-D5AF-EEB961D026FE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="264B714B-F73B-9EB0-ED83-74DA2E5374CB" name="T SHT USUARIO">
+<createdBy>onale</createdBy>
+<createdTime>2022-05-20 12:28:09 UTC</createdTime>
+<ownerDesignName>HealthTrack_DataBase_ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="749F1C45-C748-F28B-DFEC-C416F19BD5FB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cdg usuario" id="95C083BD-8A4E-16D7-6FC5-68878130A3D8">
+<createdBy>onale</createdBy>
+<createdTime>2022-05-20 12:49:43 UTC</createdTime>
+<ownerDesignName>HealthTrack_DataBase_ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="749F1C45-C748-F28B-DFEC-C416F19BD5FB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cdg conta" id="BEFD707E-1A79-27BF-D026-4FB500E114C8">
+<createdBy>onale</createdBy>
+<createdTime>2022-05-20 13:24:16 UTC</createdTime>
+<generatorID>3F1E0AB6-40DA-27F7-03F7-DDC46D5457B3</generatorID>
+<ownerDesignName>HealthTrack_DataBase_ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="749F1C45-C748-F28B-DFEC-C416F19BD5FB" value="true"/>
+</engineerTo>
+<referedAttribute>A945DAD0-348D-8DE3-6E69-63A38A660906</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nme usuario" id="65AD5C38-20E6-5386-B59F-E94AB6BB7D42">
+<createdBy>onale</createdBy>
+<createdTime>2022-05-20 12:53:53 UTC</createdTime>
+<ownerDesignName>HealthTrack_DataBase_ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="749F1C45-C748-F28B-DFEC-C416F19BD5FB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dta nascimento" id="CB3ADD9D-D98C-0478-C38C-C52F925C5C7D">
+<createdBy>onale</createdBy>
+<createdTime>2022-05-20 13:01:04 UTC</createdTime>
+<ownerDesignName>HealthTrack_DataBase_ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="749F1C45-C748-F28B-DFEC-C416F19BD5FB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dsc localidade" id="6428FFA5-E436-DD1E-5583-4E28309D04AD">
+<createdBy>onale</createdBy>
+<createdTime>2022-05-20 13:10:39 UTC</createdTime>
+<ownerDesignName>HealthTrack_DataBase_ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="749F1C45-C748-F28B-DFEC-C416F19BD5FB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vlr altura" id="15582922-B3DA-5BBF-16DD-2C0611EDBC98">
+<createdBy>onale</createdBy>
+<createdTime>2022-05-20 13:29:37 UTC</createdTime>
+<ownerDesignName>HealthTrack_DataBase_ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="749F1C45-C748-F28B-DFEC-C416F19BD5FB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vlr pressao arterial" id="65EB2684-A705-869F-6B4E-D1DA3A4E5980">
+<createdBy>onale</createdBy>
+<createdTime>2022-05-20 13:37:53 UTC</createdTime>
+<ownerDesignName>HealthTrack_DataBase_ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="749F1C45-C748-F28B-DFEC-C416F19BD5FB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7739CB3F-D816-F7E8-D0A7-CC5C72D0BCE3" name="T_SHT_USUARIO_PK">
+<createdBy>onale</createdBy>
+<createdTime>2022-05-20 12:54:58 UTC</createdTime>
+<ownerDesignName>HealthTrack_DataBase_ModeloLogico</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="749F1C45-C748-F28B-DFEC-C416F19BD5FB" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>95C083BD-8A4E-16D7-6FC5-68878130A3D8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

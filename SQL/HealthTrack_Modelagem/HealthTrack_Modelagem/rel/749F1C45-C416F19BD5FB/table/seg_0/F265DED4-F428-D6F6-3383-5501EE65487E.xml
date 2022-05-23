@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F265DED4-F428-D6F6-3383-5501EE65487E" name="META">
+<createdBy>onale</createdBy>
+<createdTime>2022-05-20 14:31:44 UTC</createdTime>
+<generatorID>1D2DF9D0-9721-978D-A20E-1001DB64B626</generatorID>
+<ownerDesignName>T_SHT_Modelagem</ownerDesignName>
+<ordsAlias>metas</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_item" id="FD15245E-0C0E-9F6E-5943-02ACC3B3BB7A">
+<createdBy>onale</createdBy>
+<createdTime>2022-05-20 14:31:44 UTC</createdTime>
+<generatorID>CE3A5D2E-4F13-090C-43CB-61F1E214F76D</generatorID>
+<ownerDesignName>T_SHT_Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao_item" id="C9FC5A8F-8BEA-5871-7CAF-174D1EE558DE">
+<createdBy>onale</createdBy>
+<createdTime>2022-05-20 14:31:44 UTC</createdTime>
+<generatorID>AF0D9D5B-DEC5-0B45-5787-F6649DFB14A7</generatorID>
+<ownerDesignName>T_SHT_Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>155</dataTypeSize>
+<ownDataTypeParameters>155,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_meta" id="AF3AD92A-FF73-D957-3DC2-8A943B851755">
+<createdBy>onale</createdBy>
+<createdTime>2022-05-20 14:31:44 UTC</createdTime>
+<generatorID>7E7574CF-21B5-202B-CE34-5FCB0FD1B152</generatorID>
+<ownerDesignName>T_SHT_Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>155</dataTypeSize>
+<ownDataTypeParameters>155,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="unidade_medida" id="2D4D742F-54C6-1B1A-A7C2-DDFD653728D8">
+<createdBy>onale</createdBy>
+<createdTime>2022-05-20 14:31:44 UTC</createdTime>
+<generatorID>42DCE6DA-9BD0-6AFA-FF1E-9BC3C8FDE9B5</generatorID>
+<ownerDesignName>T_SHT_Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao_unidade_medida" id="1A180A8C-4745-D865-0A66-BDB861AEF34D">
+<createdBy>onale</createdBy>
+<createdTime>2022-05-20 14:31:44 UTC</createdTime>
+<generatorID>665227A9-B206-62C5-E6E0-9B4648C5F8BF</generatorID>
+<ownerDesignName>T_SHT_Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>155</dataTypeSize>
+<ownDataTypeParameters>155,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="26C23DFB-CEDC-B076-6756-DAC93557DDCA" name="META_PK">
+<createdBy>onale</createdBy>
+<createdTime>2022-05-20 14:31:44 UTC</createdTime>
+<generatorID>EEB5C9EA-E210-CE6A-EB9E-4419CDCEF8EA</generatorID>
+<ownerDesignName>T_SHT_Modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD15245E-0C0E-9F6E-5943-02ACC3B3BB7A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

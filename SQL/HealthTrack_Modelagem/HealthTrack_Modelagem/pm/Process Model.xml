@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="A48BBF67-4FEA-30D1-B8C0-BD8CCB214699">
+<createdBy>onale</createdBy>
+<createdTime>2022-05-20 12:26:11 UTC</createdTime>
+<ownerDesignName>HealthTrack_DataBase_ModeloLogico</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

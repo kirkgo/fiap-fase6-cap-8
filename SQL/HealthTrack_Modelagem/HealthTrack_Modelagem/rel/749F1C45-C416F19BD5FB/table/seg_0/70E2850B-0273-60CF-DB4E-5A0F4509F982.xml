@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="70E2850B-0273-60CF-DB4E-5A0F4509F982" name="META_USUARIO">
+<createdBy>onale</createdBy>
+<createdTime>2022-05-20 14:31:44 UTC</createdTime>
+<generatorID>CE42B0C0-7D79-ADED-0BC5-574F8243B6CB</generatorID>
+<ownerDesignName>T_SHT_Modelagem</ownerDesignName>
+<ordsAlias>metausuario</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_usuario" id="2A196494-80F7-C3FF-052B-35C416C56E85">
+<createdBy>onale</createdBy>
+<createdTime>2022-05-20 14:31:44 UTC</createdTime>
+<generatorID>F2A14486-EE84-09EF-9016-E58F5072277E</generatorID>
+<ownerDesignName>T_SHT_Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="29CFB7F0-89FD-C700-4762-4A06FE4143FB" referredColumn="4B822136-E6B9-E6D9-5C9A-257F1D66EAB8"/>
+</associations>
+</Column>
+<Column name="codigo_item" id="03ED186F-86C1-9278-8396-64A4493D646C">
+<createdBy>onale</createdBy>
+<createdTime>2022-05-20 14:31:44 UTC</createdTime>
+<generatorID>A34C857F-F1D2-23B5-D5AF-EEB961D026FE</generatorID>
+<ownerDesignName>T_SHT_Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E6AD7F03-F455-824A-A0EC-89783BC38E8E" referredColumn="FD15245E-0C0E-9F6E-5943-02ACC3B3BB7A"/>
+</associations>
+</Column>
+<Column name="data_inicio" id="C41C0ECE-A85A-314A-9BEB-68C79836BA08">
+<createdBy>onale</createdBy>
+<createdTime>2022-05-20 14:31:44 UTC</createdTime>
+<generatorID>616B7EF1-91F2-CEA7-E588-A1F72DA24CB0</generatorID>
+<ownerDesignName>T_SHT_Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_meta" id="2A65D0F2-0BAA-EDAA-0329-046B55693FB7">
+<createdBy>onale</createdBy>
+<createdTime>2022-05-20 14:31:44 UTC</createdTime>
+<generatorID>46BFAC6B-7A14-CC7B-A23B-E04C9B43A827</generatorID>
+<ownerDesignName>T_SHT_Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_termino_prevista" id="F2CB898C-831F-BDED-EDD4-AB59EF9AF70E">
+<createdBy>onale</createdBy>
+<createdTime>2022-05-20 14:31:44 UTC</createdTime>
+<generatorID>76053AC1-A6CD-089A-2FBC-4231F533BEE2</generatorID>
+<ownerDesignName>T_SHT_Modelagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1EEDCA03-791C-261A-60D6-920A68BB7C4D" name="T_SHT_META_USUARIO_PK">
+<createdBy>onale</createdBy>
+<createdTime>2022-05-20 14:31:44 UTC</createdTime>
+<generatorID>E37C6AB7-3D2E-E0A7-D8E2-363F83FB0C84</generatorID>
+<ownerDesignName>T_SHT_Modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A196494-80F7-C3FF-052B-35C416C56E85"/>
+<colUsage columnID="03ED186F-86C1-9278-8396-64A4493D646C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="045D3EAE-C1E3-1828-0B6A-94B67D08B742" name="META_USUARIO-META_FK">
+<createdBy>onale</createdBy>
+<createdTime>2022-05-20 14:31:44 UTC</createdTime>
+<generatorID>485D7303-2EA4-F8D6-A125-030FA2FCE8A0</generatorID>
+<ownerDesignName>T_SHT_Modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03ED186F-86C1-9278-8396-64A4493D646C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8081D8A2-E0B2-24F7-446F-8D3B32022C19" name="META_USUARIO-USUARIO_FK">
+<createdBy>onale</createdBy>
+<createdTime>2022-05-20 14:31:44 UTC</createdTime>
+<generatorID>91633DB1-618E-AD8D-DD06-762ABDE989B1</generatorID>
+<ownerDesignName>T_SHT_Modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A196494-80F7-C3FF-052B-35C416C56E85"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

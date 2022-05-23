@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BE401CEA-4852-F977-59FE-3E0D89E74168" name="T SHT CONTA">
+<createdBy>onale</createdBy>
+<createdTime>2022-05-20 13:20:18 UTC</createdTime>
+<ownerDesignName>HealthTrack_DataBase_ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="749F1C45-C748-F28B-DFEC-C416F19BD5FB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cdg conta" id="A945DAD0-348D-8DE3-6E69-63A38A660906">
+<createdBy>onale</createdBy>
+<createdTime>2022-05-20 13:20:25 UTC</createdTime>
+<ownerDesignName>HealthTrack_DataBase_ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="749F1C45-C748-F28B-DFEC-C416F19BD5FB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="eml conta" id="53098902-2C8B-4FE9-CD3E-F6A19ADEE020">
+<createdBy>onale</createdBy>
+<createdTime>2022-05-20 13:20:58 UTC</createdTime>
+<ownerDesignName>HealthTrack_DataBase_ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="749F1C45-C748-F28B-DFEC-C416F19BD5FB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>40</dataTypePrecision>
+<ownDataTypeParameters>,40,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="snh conta" id="EF44B1A4-8585-AB81-5F88-BC583D74DD5C">
+<createdBy>onale</createdBy>
+<createdTime>2022-05-20 13:21:25 UTC</createdTime>
+<ownerDesignName>HealthTrack_DataBase_ModeloLogico</ownerDesignName>
+<engineerTo>
+<item key="749F1C45-C748-F28B-DFEC-C416F19BD5FB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2E358011-42F1-BEA3-BD48-DC8DC771FBBB" name="T_SHT_CONTA_PK">
+<createdBy>onale</createdBy>
+<createdTime>2022-05-20 13:20:57 UTC</createdTime>
+<ownerDesignName>HealthTrack_DataBase_ModeloLogico</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="749F1C45-C748-F28B-DFEC-C416F19BD5FB" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A945DAD0-348D-8DE3-6E69-63A38A660906</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="86EA7136-1698-4B6F-8B03-E870DDB43155" name="T_SHT_CONTA_eml_conta_UN">
+<createdBy>onale</createdBy>
+<createdTime>2022-05-20 14:51:46 UTC</createdTime>
+<generatorID>BAF617C7-58B9-FE47-55E2-CCCD9C4876E4</generatorID>
+<ownerDesignName>HealthTrack_DataBase_ModeloLogico</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="749F1C45-C748-F28B-DFEC-C416F19BD5FB" value="false"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>53098902-2C8B-4FE9-CD3E-F6A19ADEE020</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

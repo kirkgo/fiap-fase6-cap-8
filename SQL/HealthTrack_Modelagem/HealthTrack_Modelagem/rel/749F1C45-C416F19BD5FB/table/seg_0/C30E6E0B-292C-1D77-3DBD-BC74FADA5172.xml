@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C30E6E0B-292C-1D77-3DBD-BC74FADA5172" name="CONTA">
+<createdBy>onale</createdBy>
+<createdTime>2022-05-20 14:31:44 UTC</createdTime>
+<generatorID>BE401CEA-4852-F977-59FE-3E0D89E74168</generatorID>
+<ownerDesignName>T_SHT_Modelagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_conta" id="A5E3A218-6F25-864E-9C0A-846D407EBDB7">
+<createdBy>onale</createdBy>
+<createdTime>2022-05-20 14:31:44 UTC</createdTime>
+<generatorID>A945DAD0-348D-8DE3-6E69-63A38A660906</generatorID>
+<ownerDesignName>T_SHT_Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="353CEDE9-EB01-9952-0AD3-F1D35340BD7B">
+<createdBy>onale</createdBy>
+<createdTime>2022-05-20 14:31:44 UTC</createdTime>
+<generatorID>53098902-2C8B-4FE9-CD3E-F6A19ADEE020</generatorID>
+<ownerDesignName>T_SHT_Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>155</dataTypeSize>
+<ownDataTypeParameters>155,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="senha" id="0A860FD0-19C0-B55E-CC55-8CCBA7C0AA5C">
+<createdBy>onale</createdBy>
+<createdTime>2022-05-20 14:31:44 UTC</createdTime>
+<generatorID>EF44B1A4-8585-AB81-5F88-BC583D74DD5C</generatorID>
+<ownerDesignName>T_SHT_Modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7608383C-E349-3149-B98C-736FD53C40AB" name="CONTA_PK">
+<createdBy>onale</createdBy>
+<createdTime>2022-05-20 14:31:44 UTC</createdTime>
+<generatorID>2E358011-42F1-BEA3-BD48-DC8DC771FBBB</generatorID>
+<ownerDesignName>T_SHT_Modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5E3A218-6F25-864E-9C0A-846D407EBDB7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BAF617C7-58B9-FE47-55E2-CCCD9C4876E4" name="CONTA_email_conta_UN">
+<createdBy>onale</createdBy>
+<createdTime>2022-05-20 14:49:43 UTC</createdTime>
+<ownerDesignName>T_SHT_Modelagem</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="353CEDE9-EB01-9952-0AD3-F1D35340BD7B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
